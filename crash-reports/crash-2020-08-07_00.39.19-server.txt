@@ -1,0 +1,56 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 8/7/20 12:39 AM
+Description: Exception in server tick loop
+
+Duplicate Mods:
+	voxelmap : /home/canx/minecraft/./mods/forgemod_VoxelMap-1.9.27_for_1.12.2.jar
+	voxelmap : /home/canx/minecraft/./mods/forgemod_VoxelMap-1.9.27_for_1.12.2.jar
+
+net.minecraftforge.fml.common.DuplicateModsFoundException
+	at net.minecraftforge.fml.common.Loader.identifyDuplicates(Loader.java:466)
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:428)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.19.0-10-cloud-amd64
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 2144589896 bytes (2045 MB) / 2555379712 bytes (2437 MB) up to 2863661056 bytes (2731 MB)
+	JVM Flags: 2 total; -Xms2048M -Xmx3072M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 13 mods loaded, 0 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version           | Source                                        | Signature                                |
+	|:----- |:--------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	|       | minecraft             | 1.12.2            | minecraft.jar                                 | None                                     |
+	|       | mcp                   | 9.42              | minecraft.jar                                 | None                                     |
+	|       | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | forge                 | 14.23.5.2854      | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	|       | voxelmap              | 1.9.25            | forgemod_VoxelMap-1.9.27_for_1.12.2.jar       | None                                     |
+	|       | voxelmap              | 1.9.25            | forgemod_VoxelMap-1.9.27_for_1.12.2.jar       | None                                     |
+	|       | ic2                   | 2.8.220-ex112     | industrialcraft-2-2.8.220-ex112.jar           | None                                     |
+	|       | jei                   | 4.15.0.289        | jei_1.12.2-4.15.0.289.jar                     | None                                     |
+	|       | harvestcraft          | 1.12.2zb          | Pam's+HarvestCraft+1.12.2zg.jar               | None                                     |
+	|       | projecte              | 1.12.2-PE1.4.1    | ProjectE-1.12.2-PE1.4.1.jar                   | None                                     |
+	|       | flammpfeil.slashblade | mc1.12-r32        | SlashBlade-mc1.12-r32.jar                     | None                                     |
+	|       | tconstruct            | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar              | None                                     |
+	|       | twilightforest        | 3.10.1013         | twilightforest-1.12.2-3.10.1013-universal.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

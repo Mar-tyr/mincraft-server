@@ -1,0 +1,52 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 8/7/20 12:42 AM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need [1.12-1.3.3.49,): have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod tconstruct (Tinkers' Construct) requires [mantle@[1.12-1.3.3.49,)]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 4.19.0-10-cloud-amd64
+	Java Version: 1.8.0_261, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1783063504 bytes (1700 MB) / 2345664512 bytes (2237 MB) up to 2863661056 bytes (2731 MB)
+	JVM Flags: 2 total; -Xms2048M -Xmx3072M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 11 mods loaded, 11 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                    | Version           | Source                                        | Signature                                |
+	|:----- |:--------------------- |:----------------- |:--------------------------------------------- |:---------------------------------------- |
+	| L     | minecraft             | 1.12.2            | minecraft.jar                                 | None                                     |
+	| L     | mcp                   | 9.42              | minecraft.jar                                 | None                                     |
+	| L     | FML                   | 8.0.99.99         | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge                 | 14.23.5.2854      | forge-1.12.2-14.23.5.2854.jar                 | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | ic2                   | 2.8.220-ex112     | industrialcraft-2-2.8.220-ex112.jar           | None                                     |
+	| L     | jei                   | 4.15.0.289        | jei_1.12.2-4.15.0.289.jar                     | None                                     |
+	| L     | harvestcraft          | 1.12.2zb          | Pam's+HarvestCraft+1.12.2zg.jar               | None                                     |
+	| L     | projecte              | 1.12.2-PE1.4.1    | ProjectE-1.12.2-PE1.4.1.jar                   | None                                     |
+	| L     | flammpfeil.slashblade | mc1.12-r32        | SlashBlade-mc1.12-r32.jar                     | None                                     |
+	| L     | tconstruct            | 1.12.2-2.13.0.183 | TConstruct-1.12.2-2.13.0.183.jar              | None                                     |
+	| L     | twilightforest        | 3.10.1013         | twilightforest-1.12.2-3.10.1013-universal.jar | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
