@@ -1,540 +1,490 @@
-[13:02:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[13:02:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[13:02:10] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_265, running on Linux:amd64:4.4.0-184-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[13:02:10] [main/INFO] [FML]: Searching /root/minecraft/./mods for mods
-[13:02:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[13:02:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:02:15] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[13:02:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[13:02:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[13:02:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:02:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[13:02:16] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[13:02:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[13:02:25] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[13:02:25] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[13:02:25] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[13:02:26] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[13:02:26] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[13:02:27] [Server thread/INFO] [FML]: Searching /root/minecraft/./mods for mods
-[13:02:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
-[13:02:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[13:02:30] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
-[13:02:30] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
-[13:02:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2, jei, mantle, harvestcraft, projecte, flammpfeil.slashblade, tconstruct, twilightforest] at CLIENT
-[13:02:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2, jei, mantle, harvestcraft, projecte, flammpfeil.slashblade, tconstruct, twilightforest] at SERVER
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
-[13:02:36] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
-[13:02:36] [Server thread/INFO] [tconstruct]: Preparing to take over the world
-[13:02:36] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[13:02:36] [Server thread/INFO] [FML]: Found 1455 ObjectHolder annotations
-[13:02:36] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[13:02:36] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[13:02:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[13:02:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13:02:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[13:02:38] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
-[13:02:39] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
-[13:02:39] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
-[13:02:39] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Found status: UP_TO_DATE Target: null
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
-[13:03:22] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:23] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:24] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:25] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Baubles.
-[13:03:25] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
-[13:03:25] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
-[13:03:26] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
-[13:03:26] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
-[13:03:26] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Tinkers' Construct.
-[13:03:26] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:27] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:27] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:28] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:28] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:29] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:29] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:29] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:29] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:29] [Server thread/INFO] [FML]: Injecting itemstacks
-[13:03:29] [Server thread/INFO] [FML]: Itemstack injection complete
-[13:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[13:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[13:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[13:03:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[13:03:29] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[13:03:29] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:03:29] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[13:03:29] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:03:29] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:03:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:30] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
-[13:03:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:30] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:30] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:31] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[DRY, HOT, SANDY]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN, HILLS]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[WET, SWAMP]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[RIVER, WATER]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[DRY, HOT, NETHER]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[DRY, END, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[SNOWY, WATER, COLD, OCEAN]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[SNOWY, RIVER, WATER, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[SNOWY, COLD, WASTELAND]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[SNOWY, MOUNTAIN, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM, BEACH]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[DRY, HILLS, HOT, SANDY]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[HILLS, FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[JUNGLE, WET, DENSE, HOT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[JUNGLE, WET, HILLS, DENSE, HOT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[JUNGLE, WET, FOREST, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[SNOWY, COLD, BEACH]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[HILLS, FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[SPOOKY, DENSE, FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[SNOWY, FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[SNOWY, HILLS, FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[SPARSE, MOUNTAIN, FOREST]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[PLAINS, SPARSE, SAVANNA, HOT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[PLAINS, SPARSE, SAVANNA, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[SPARSE, DRY, SANDY, MESA]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[PLAINS, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[DRY, HOT, RARE, SANDY]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[SPARSE, MOUNTAIN, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[HILLS, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[MOUNTAIN, FOREST, CONIFEROUS, COLD, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[WET, HILLS, RARE, SWAMP]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[SNOWY, HILLS, COLD, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[JUNGLE, MOUNTAIN, WET, DENSE, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[SPARSE, JUNGLE, HILLS, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[HILLS, DENSE, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[MOUNTAIN, DENSE, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[SPOOKY, MOUNTAIN, DENSE, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[SNOWY, MOUNTAIN, FOREST, CONIFEROUS, COLD, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[DENSE, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[HILLS, DENSE, FOREST, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[SPARSE, MOUNTAIN, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[SPARSE, DRY, SAVANNA, MOUNTAIN, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[SPARSE, DRY, SAVANNA, HILLS, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[SPARSE, DRY, MOUNTAIN, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[SPARSE, DRY, HILLS, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[SPARSE, DRY, MOUNTAIN, HOT, RARE]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_lake;MEDIUM;0.66;true;false;false;[WATER, TWILIGHT, OCEAN]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_forest;MEDIUM;0.5;false;false;false;[FOREST, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:dense_twilight_forest;MEDIUM;0.7;false;false;false;[DENSE, FOREST, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_highlands;MEDIUM;0.4;false;false;false;[MOUNTAIN, FOREST, CONIFEROUS, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:mushroom_forest;MEDIUM;0.8;false;false;false;[FOREST, TWILIGHT, MUSHROOM]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_swamp;MEDIUM;0.8;true;false;false;[WET, TWILIGHT, SWAMP]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_stream;MEDIUM;0.5;false;false;false;[RIVER, WATER, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:snowy_forest;COLD;0.09;true;false;false;[SNOWY, FOREST, CONIFEROUS, TWILIGHT, COLD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_glacier;COLD;0.0;false;false;false;[SNOWY, TWILIGHT, COLD, WASTELAND]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_clearing;MEDIUM;0.8;false;false;false;[PLAINS, SPARSE, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:oak_savannah;MEDIUM;0.9;false;false;false;[SPARSE, FOREST, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:firefly_forest;MEDIUM;0.5;true;false;false;[FOREST, TWILIGHT, LUSH]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:deep_mushroom_forest;MEDIUM;0.8;true;false;false;[FOREST, TWILIGHT, MUSHROOM]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest;MEDIUM;0.7;true;false;false;[SPOOKY, DENSE, FOREST, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:enchanted_forest;MEDIUM;0.5;false;false;false;[FOREST, MAGICAL, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:fire_swamp;WARM;1.0;false;false;false;[HOT, TWILIGHT, WASTELAND, SWAMP]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest_center;MEDIUM;0.5;true;false;false;[SPOOKY, DENSE, FOREST, MAGICAL, TWILIGHT]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:highlands_center;MEDIUM;0.3;false;false;false;[DRY, TWILIGHT, DEAD, WASTELAND, MESA]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:thornlands;MEDIUM;0.3;false;false;false;[DRY, HILLS, TWILIGHT, DEAD, WASTELAND]
-[13:03:31] [Server thread/INFO] [harvestcraft]: twilightforest:spooky_forest;MEDIUM;0.5;true;false;false;[SPOOKY, DENSE, FOREST, TWILIGHT, DEAD]
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for shadedGarden.
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for tropicalGarden.
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for windyGarden.
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for frostGarden.
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for aridGarden.
-[13:03:31] [Server thread/INFO] [harvestcraft]: Registering drops for soggyGarden.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:31] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[13:03:32] [Server thread/INFO] [FML]: Injecting itemstacks
-[13:03:32] [Server thread/INFO] [FML]: Itemstack injection complete
-[13:03:32] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
-[13:03:33] [Server thread/INFO] [ic2.General]: ic2 version 2.8.220-ex112 loaded.
-[13:03:33] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
-[13:03:36] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 2142.602155 ms
-[13:03:36] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
-[13:03:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[13:03:36] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[13:03:38] [Server thread/INFO] [FML]: Applying holder lookups
-[13:03:38] [Server thread/INFO] [FML]: Holder lookups applied
-[13:03:38] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@52c4319d)
-[13:03:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 718 advancements
-[13:03:39] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@52c4319d)
-[13:03:39] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@52c4319d)
-[13:03:39] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@52c4319d)
-[13:03:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[13:03:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
-[13:03:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
-[13:03:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 54%
-[13:03:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (6.840s)! For help, type "help" or "?"
-[13:03:43] [ProjectE UUID Checker Server/FATAL] [projecte]: Caught exception in UUID Checker thread!
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: java.net.ConnectException: Connection refused (Connection refused)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.Socket.connect(Socket.java:607)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:681)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1162)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1046)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1044)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivileged(Native Method)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1043)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1570)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:92)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1490)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1488)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivileged(Native Method)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:784)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1487)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:268)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at java.net.URL.openStream(URL.java:1068)
-[13:03:43] [ProjectE UUID Checker Server/INFO] [STDERR]: [moze_intel.projecte.network.ThreadCheckUUID:run:58]: 	at moze_intel.projecte.network.ThreadCheckUUID.run(ThreadCheckUUID.java:28)
-[13:03:43] [Server thread/INFO] [projecte]: Starting server-side EMC mapping.
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'obisidan.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'ender'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'iron.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'gold.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'copper.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'tin.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'silver.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'lead.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'nickel.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminum.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'ardite.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'cobalt.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'platinum.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'obsidian.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'electrum.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'invar.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'signalum.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'lumium.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'enderium.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'mithril.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'bronze.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminumbrass.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'manyullyn.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'alumite.molten'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'emerald.liquid'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'redstone'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'glowstone'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'cryotheum'
-[13:03:43] [Server thread/WARN] [projecte]: Can not get Fluid 'pryotheum'
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 1*minecraft:cobblestone:0 + 1*minecraft:stone:3 => 2*minecraft:stone:5) cost 17 but output value is 16
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:2 => 1*tconstruct:ingots:2" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 1*OD: ingotCobalt + 1*OD: ingotArdite => 1*tconstruct:ingots:2
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:1 => 1*tconstruct:ingots:1" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*OD: ingotIron => 1*tconstruct:ingots:1
-[13:03:44] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:0 => 1*tconstruct:ingots:0" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*OD: ingotIron => 1*tconstruct:ingots:0
-[13:03:44] [Server thread/INFO] [projecte]: Registered 1092 EMC values. (took 1068 ms)
-[13:03:45] [Server thread/INFO] [FML]: Unloading dimension -1
-[13:03:45] [Server thread/INFO] [FML]: Unloading dimension 1
-[13:03:45] [Server thread/INFO] [FML]: Unloading dimension 7
-[13:04:21] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[13:04:21] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:04:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:04:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3456] logged in with entity id 610 at (-316.9203248525205, 71.0, 446.2308707923374)
-[13:04:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:05:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [Stone Age]
-[13:06:02] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:06:02] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:06:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:06:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ACienZ[/112.122.71.103:8892] logged in with entity id 2228 at (-215.46632136597, 65.0, 271.2468338768996)
-[13:06:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ joined the game
-[13:06:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:06:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:07:19] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:07:19] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:07:21] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:07:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 1900[/211.162.4.99:49390] logged in with entity id 4986 at (-219.5, 64.0999984741211, 270.5)
-[13:07:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 joined the game
-[13:07:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
-[13:07:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
-[13:07:36] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:07:52] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[13:07:52] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:07:53] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:07:53] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: 1900[/211.162.4.99:49398] logged in with entity id 6051 at (-219.5, 64.0999984741211, 270.5)
-[13:07:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 joined the game
-[13:08:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[13:08:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:09:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[13:10:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Anonymity-Wood-]
-[13:14:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Anonymity-Wood-]
-[13:14:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [Anonymity-Wood-]
-[13:14:59] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: canx moved too quickly! 2.3958432498962168,0.0,-10.091252056418284
-[13:15:34] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: canx moved wrongly!
-[13:15:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Stone Age]
-[13:16:47] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: canx moved wrongly!
-[13:17:17] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: canx moved wrongly!
-[13:17:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ACienZ was kicked for floating too long!
-[13:17:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ACienZ lost connection: Flying is not enabled on this server
-[13:17:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ left the game
-[13:17:27] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:17:55] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:17:55] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:17:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:17:56] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ACienZ[/112.122.71.103:8926] logged in with entity id 22451 at (-220.5, 64.0999984741211, 270.5)
-[13:17:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ joined the game
-[13:18:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ACienZ lost connection: Timed out
-[13:18:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ left the game
-[13:18:45] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[13:18:45] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:18:46] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:18:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ACienZ[/112.122.71.103:8932] logged in with entity id 24449 at (-220.5, 64.0999984741211, 270.5)
-[13:18:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ joined the game
-[13:20:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ fell out of the world
-[13:20:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Killed ACienZ]
-[13:22:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Given 999 experience to ACienZ]
-[13:24:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell from a high place
-[13:27:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to 1900]
-[13:27:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to 1900]
-[13:29:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to 1900]
-[13:30:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:30:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to 1900]
-[13:30:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:30:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:30:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[13:30:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[13:30:58] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:31:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Monster Hunter]
-[13:31:20] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:31:20] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:31:21] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:31:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3865] logged in with entity id 51600 at (-643.3306666207662, 58.0, 366.61337801632243)
-[13:31:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:31:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[13:31:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[13:31:37] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:31:57] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[13:31:57] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:31:59] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:31:59] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3868] logged in with entity id 51927 at (-643.3306666207662, 58.0, 366.61337801632243)
-[13:31:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:32:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[13:32:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[13:32:14] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:32:33] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:32:33] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:32:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:32:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3871] logged in with entity id 52267 at (-643.3306666207662, 58.0, 366.61337801632243)
-[13:32:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:32:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[13:32:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[13:32:49] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:33:16] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[13:33:16] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:33:17] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:33:17] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3874] logged in with entity id 52959 at (-643.3306666207662, 58.0, 366.61337801632243)
-[13:33:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:34:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Given 9999 experience to ACienZ]
-[13:37:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[13:39:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
-[13:39:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
-[13:41:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 fell out of the world
-[13:41:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Killed 1900]
-[13:44:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to ACienZ]
-[13:47:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [Isn't It Iron Pick]
-[13:50:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to canx]
-[13:50:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[13:51:13] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: 1900 moved wrongly!
-[13:51:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to 666.5, 20.0, 353.5]
-[13:51:53] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2655ms behind, skipping 53 tick(s)
-[13:51:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ suffocated in a wall
-[13:52:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Isn't It Iron Pick]
-[13:52:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Isn't It Iron Pick]
-[13:53:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to 666.5, 20.0, 353.5]
-[13:53:18] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2760ms behind, skipping 55 tick(s)
-[13:53:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ suffocated in a wall
-[13:53:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx was slain by 1900
-[13:53:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to 666.5, 22.0, 353.5]
-[13:54:05] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[13:54:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[13:54:06] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[13:54:22] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[13:54:22] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[13:54:23] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[13:54:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3923] logged in with entity id 88552 at (-219.5, 64.0999984741211, 275.5)
-[13:54:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[13:55:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to ACienZ]
-[13:56:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[13:56:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to ACienZ]
-[13:57:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Diamonds!]
-[13:59:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[14:01:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
-[14:01:39] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[14:01:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[14:01:39] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[14:01:56] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[14:01:56] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[14:01:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:01:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3943] logged in with entity id 112848 at (692.0444888191494, 10.0, 344.50977309329255)
-[14:01:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[14:02:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[14:02:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[14:02:13] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[14:02:38] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[14:02:38] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[14:02:39] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[14:02:39] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:3949] logged in with entity id 115594 at (692.0444888191494, 10.0, 344.50977309329255)
-[14:02:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[14:04:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[14:05:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx tried to swim in lava
-[14:07:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Diamonds!]
-[14:07:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to 1900]
-[14:24:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
-[14:24:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
-[14:29:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to canx]
-[14:31:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Acquire Hardware]
-[14:32:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Sharpness-White-]
-[14:34:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to 1900]
-[14:40:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Acquire Hardware]
-[14:43:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * ACienZ ?
-[14:44:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: * ACienZ help
-[14:44:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ACienZ> me tp
-[14:44:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Opped ACienZ]
-[14:46:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Object successfully summoned]
-[15:03:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to canx]
-[15:06:04] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ has made the advancement [Broken-White-]
-[15:10:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was shot by Skeleton
-[15:13:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx hit the ground too hard
-[15:13:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was slain by Enderman
-[15:13:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[15:13:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[15:13:33] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[15:13:55] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[15:13:55] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
-[15:13:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[15:13:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:4254] logged in with entity id 217354 at (-231.5, 81.0, 240.5)
-[15:13:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
-[15:16:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [1900: Teleported 1900 to canx]
-[15:20:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Sharpness-White-]
-[15:23:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ACienZ moved wrongly!
-[15:23:40] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ACienZ moved wrongly!
-[15:23:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ACienZ moved wrongly!
-[15:23:41] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: ACienZ moved wrongly!
-[15:23:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was slain by 1900
-[15:25:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [Sharpness-White-]
-[15:27:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx hit the ground too hard
-[15:28:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 was slain by ACienZ
-[15:30:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 was slain by canx
-[15:30:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was slain by canx
-[15:30:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx was slain by 1900
-[15:30:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 has made the advancement [Broken-White-]
-[15:30:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Timed out
-[15:30:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
-[15:30:59] [Server thread/WARN] [net.minecraft.network.NetworkManager]: handleDisconnection() called twice
-[15:31:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 was slain by ACienZ
-[15:31:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Disconnected
-[15:31:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
-[15:31:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ACienZ lost connection: Disconnected
-[15:31:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ left the game
+[00:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[00:31:14] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[00:31:14] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_265, running on Linux:amd64:4.15.0-76-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:31:14] [main/INFO] [FML]: Searching /root/mincraft-server/./mods for mods
+[00:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:31:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:31:18] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[00:31:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:31:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:31:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:31:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:31:19] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:31:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[00:31:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[00:31:27] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[00:31:27] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:31:27] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:31:27] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:31:28] [Server thread/INFO] [FML]: Searching /root/mincraft-server/./mods for mods
+[00:31:30] [Server thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[00:31:30] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[00:31:30] [Server thread/WARN] [FML]: Missing English translation for ic2: assets/ic2/lang/en_us.lang
+[00:31:30] [Server thread/WARN] [FML]: Missing English translation for mantle: assets/mantle/lang/en_us.lang
+[00:31:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2, jei, mantle, harvestcraft, projecte, flammpfeil.slashblade, tconstruct, twilightforest] at CLIENT
+[00:31:31] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ic2, jei, mantle, harvestcraft, projecte, flammpfeil.slashblade, tconstruct, twilightforest] at SERVER
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselIntegration; missing dependency: chisel
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse chiselsandbitsIntegration; missing dependency: chiselsandbits
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse craftingtweaksIntegration; missing dependency: craftingtweaks
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse wailaIntegration; missing dependency: waila
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse theoneprobeIntegration; missing dependency: theoneprobe
+[00:31:35] [Server thread/INFO] [Pulsar-tconstruct]: Skipping Pulse quarkIntegration; missing dependency: quark
+[00:31:35] [Server thread/INFO] [tconstruct]: Preparing to take over the world
+[00:31:35] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:31:35] [Server thread/INFO] [FML]: Found 1455 ObjectHolder annotations
+[00:31:35] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:31:35] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:31:35] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:31:35] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[00:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[00:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[00:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Starting version check at https://raw.githubusercontent.com/sinkillerj/ProjectE/mc1.12.x/update.json
+[00:31:36] [Forge Version Check/INFO] [forge.VersionCheck]: [projecte] Found status: UP_TO_DATE Target: null
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 354 out of 354 recipes for shaped recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 79 out of 79 recipes for shapeless recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 41 out of 41 recipes for solid uu recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 27 out of 27 recipes for furnace recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for blast furnace recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for block cutter recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 51 out of 51 recipes for compressor recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for extractor recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 89 out of 89 recipes for macerator recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 5 out of 5 recipes for metal former cutting recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 10 out of 10 recipes for metal former extruding recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 14 out of 14 recipes for metal former rolling recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 8 out of 8 recipes for ore washing recipes
+[00:32:14] [Server thread/INFO] [ic2.Recipe]: Successfully loaded 26 out of 26 recipes for thermal centrifuge recipes
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:15] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:17] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Baubles.
+[00:32:17] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
+[00:32:17] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[00:32:17] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[00:32:17] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[00:32:17] [Server thread/INFO] [twilightforest]: Loaded compatibility for mod Tinkers' Construct.
+[00:32:17] [Server thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.craftingstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.stenciltable`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partbuilder`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.patternchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.partchest`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolstation`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.toolforge`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_controller`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_component`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.faucet`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_table`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.casting_basin`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.smeltery_drain`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.seared_furnace`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.tinker_tank`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.item_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.drying_rack`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.wooden_hopper`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tconstruct.slime_channel`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:18] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:18] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:19] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:19] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:19] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:19] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:19] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:19] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:19] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:32:19] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:32:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[00:32:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[00:32:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[00:32:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[00:32:20] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[00:32:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:32:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[00:32:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:32:20] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:rabbit_stew
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/WARN] [FML]: Unable to find recipe for minecraft:baked_potato
+[00:32:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slime`, expected `tconstruct`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:21] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:21] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:desert;WARM;2.0;false;false;false;[HOT, DRY, SANDY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, COLD, CONIFEROUS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:swampland;MEDIUM;0.8;true;false;false;[SWAMP, WET]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:river;MEDIUM;0.5;false;false;false;[WATER, RIVER]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:hell;WARM;2.0;false;false;false;[HOT, DRY, NETHER]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:sky;MEDIUM;0.5;false;false;false;[DRY, END, COLD]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[WATER, OCEAN, COLD, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:frozen_river;COLD;0.0;false;false;true;[WATER, COLD, SNOWY, RIVER]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:ice_flats;COLD;0.0;false;false;true;[WASTELAND, COLD, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:ice_mountains;COLD;0.0;false;false;true;[MOUNTAIN, COLD, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[MUSHROOM, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[BEACH, MUSHROOM, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:desert_hills;WARM;2.0;false;false;false;[HOT, DRY, SANDY, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[FOREST, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[FOREST, COLD, CONIFEROUS, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:jungle;MEDIUM;0.95;true;false;false;[HOT, JUNGLE, WET, DENSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[HOT, JUNGLE, WET, DENSE, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[HOT, JUNGLE, FOREST, WET, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:cold_beach;COLD;0.05;false;false;true;[BEACH, COLD, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[FOREST, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[FOREST, SPOOKY, DENSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[FOREST, COLD, CONIFEROUS, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[FOREST, COLD, CONIFEROUS, SNOWY, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, COLD, CONIFEROUS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[FOREST, COLD, CONIFEROUS, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[MOUNTAIN, FOREST, SPARSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:savanna;WARM;1.2;false;false;false;[HOT, SAVANNA, PLAINS, SPARSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:savanna_rock;WARM;1.0;false;false;false;[HOT, SAVANNA, PLAINS, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mesa;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mesa_rock;WARM;2.0;false;false;false;[DRY, SANDY, MESA, SPARSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[DRY, SANDY, MESA]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[PLAINS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_desert;WARM;2.0;false;true;false;[HOT, DRY, SANDY, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[MOUNTAIN, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[FOREST, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[MOUNTAIN, FOREST, COLD, CONIFEROUS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[SWAMP, WET, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[COLD, SNOWY, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[HOT, JUNGLE, MOUNTAIN, WET, DENSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[HOT, JUNGLE, SPARSE, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[FOREST, DENSE, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[MOUNTAIN, FOREST, DENSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[MOUNTAIN, FOREST, SPOOKY, DENSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[MOUNTAIN, FOREST, COLD, CONIFEROUS, SNOWY, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[FOREST, DENSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[FOREST, DENSE, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[MOUNTAIN, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[HOT, MOUNTAIN, DRY, SAVANNA, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[HOT, DRY, SAVANNA, SPARSE, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[HOT, MOUNTAIN, DRY, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[HOT, DRY, SPARSE, HILLS, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[HOT, MOUNTAIN, DRY, SPARSE, RARE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_lake;MEDIUM;0.66;true;false;false;[WATER, OCEAN, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_forest;MEDIUM;0.5;false;false;false;[FOREST, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:dense_twilight_forest;MEDIUM;0.7;false;false;false;[FOREST, TWILIGHT, DENSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_highlands;MEDIUM;0.4;false;false;false;[MOUNTAIN, FOREST, TWILIGHT, CONIFEROUS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:mushroom_forest;MEDIUM;0.8;false;false;false;[FOREST, MUSHROOM, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_swamp;MEDIUM;0.8;true;false;false;[SWAMP, WET, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_stream;MEDIUM;0.5;false;false;false;[WATER, TWILIGHT, RIVER]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:snowy_forest;COLD;0.09;true;false;false;[FOREST, COLD, TWILIGHT, SNOWY, CONIFEROUS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_glacier;COLD;0.0;false;false;false;[WASTELAND, COLD, TWILIGHT, SNOWY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:twilight_clearing;MEDIUM;0.8;false;false;false;[TWILIGHT, PLAINS, SPARSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:oak_savannah;MEDIUM;0.9;false;false;false;[FOREST, TWILIGHT, SPARSE]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:firefly_forest;MEDIUM;0.5;true;false;false;[LUSH, FOREST, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:deep_mushroom_forest;MEDIUM;0.8;true;false;false;[FOREST, MUSHROOM, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest;MEDIUM;0.7;true;false;false;[FOREST, TWILIGHT, DENSE, SPOOKY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:enchanted_forest;MEDIUM;0.5;false;false;false;[FOREST, TWILIGHT, MAGICAL]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:fire_swamp;WARM;1.0;false;false;false;[HOT, SWAMP, WASTELAND, TWILIGHT]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:dark_forest_center;MEDIUM;0.5;true;false;false;[FOREST, TWILIGHT, MAGICAL, DENSE, SPOOKY]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:highlands_center;MEDIUM;0.3;false;false;false;[DEAD, DRY, WASTELAND, TWILIGHT, MESA]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:thornlands;MEDIUM;0.3;false;false;false;[DEAD, DRY, WASTELAND, TWILIGHT, HILLS]
+[00:32:21] [Server thread/INFO] [harvestcraft]: twilightforest:spooky_forest;MEDIUM;0.5;true;false;false;[DEAD, FOREST, TWILIGHT, DENSE, SPOOKY]
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for shadedGarden.
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for tropicalGarden.
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for windyGarden.
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for frostGarden.
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for aridGarden.
+[00:32:22] [Server thread/INFO] [harvestcraft]: Registering drops for soggyGarden.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[00:32:22] [Server thread/INFO] [FML]: Injecting itemstacks
+[00:32:22] [Server thread/INFO] [FML]: Itemstack injection complete
+[00:32:22] [Server thread/INFO] [ic2.Uu]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[00:32:23] [Server thread/INFO] [ic2.General]: ic2 version 2.8.220-ex112 loaded.
+[00:32:23] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Started adding oredict melting recipes
+[00:32:25] [Server thread/INFO] [tconstruct-TinkerSmeltery]: Oredict melting recipes finished in 1395.841804 ms
+[00:32:25] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
+[00:32:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[00:32:25] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod mires which appears to be missing, things may not work well
+[00:32:25] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[00:32:25] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world mires:select_tool
+[00:32:25] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world mires:tab_icon
+[00:32:26] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:items
+[00:32:26] [Server thread/ERROR] [FML]:     mires:select_tool: 6086
+[00:32:26] [Server thread/ERROR] [FML]:     mires:tab_icon: 6087
+[00:32:26] [Server thread/WARN] [FML]: Forge Mod Loader detected missing registry entries.
+
+There are 2 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+Missing minecraft:items:
+    mires:select_tool
+    mires:tab_icon
+
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+[00:32:34] [Server thread/INFO] [FML]: confirmed
+[00:32:34] [Server thread/INFO] [FML]: World backup created at /root/mincraft-server/world-20200808-003234.zip.
+[00:32:34] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[00:32:35] [Server thread/INFO] [FML]: Applying holder lookups
+[00:32:35] [Server thread/INFO] [FML]: Holder lookups applied
+[00:32:36] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@7e4eb638)
+[00:32:36] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 718 advancements
+[00:32:36] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@7e4eb638)
+[00:32:37] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@7e4eb638)
+[00:32:37] [Server thread/INFO] [FML]: Loading dimension 7 (world) (net.minecraft.server.dedicated.DedicatedServer@7e4eb638)
+[00:32:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[00:32:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[00:32:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 25%
+[00:32:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 70%
+[00:32:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (15.072s)! For help, type "help" or "?"
+[00:32:40] [Server thread/INFO] [projecte]: Starting server-side EMC mapping.
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'obisidan.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'glass.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'ender'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'iron.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'gold.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'copper.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'tin.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'silver.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'lead.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'nickel.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminum.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'ardite.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'cobalt.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'platinum.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'obsidian.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'electrum.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'invar.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'signalum.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'lumium.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'enderium.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'mithril.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'bronze.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'aluminumbrass.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'manyullyn.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'alumite.molten'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'emerald.liquid'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'redstone'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'glowstone'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'cryotheum'
+[00:32:40] [Server thread/WARN] [projecte]: Can not get Fluid 'pryotheum'
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 9*minecraft:iron_nugget:0 => 1*minecraft:iron_ingot:0) cost 252 but output value is 256
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*minecraft:gold_nugget:0 => 1*minecraft:gold_ingot:0" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 8*OD: ingotIron => 1*minecraft:gold_ingot:0
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: ingredients (0 + 1*minecraft:cobblestone:0 + 1*minecraft:stone:3 => 2*minecraft:stone:5) cost 17 but output value is 16
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:2 => 1*tconstruct:ingots:2" ingredient cost: 2043 value of result: 2048 setValueFromConversion: 0 + 1*OD: ingotCobalt + 1*OD: ingotArdite => 1*tconstruct:ingots:2
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:1 => 1*tconstruct:ingots:1" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*OD: ingotIron => 1*tconstruct:ingots:1
+[00:32:41] [Server thread/WARN] [projecte]: EMC Exploit: "0 + 9*tconstruct:nuggets:0 => 1*tconstruct:ingots:0" ingredient cost: 1017 value of result: 1024 setValueFromConversion: 0 + 4*OD: ingotIron => 1*tconstruct:ingots:0
+[00:32:41] [Server thread/INFO] [projecte]: Registered 1092 EMC values. (took 986 ms)
+[00:32:42] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:32:42] [Server thread/INFO] [FML]: Unloading dimension 1
+[00:32:42] [Server thread/INFO] [FML]: Unloading dimension 7
+[00:32:50] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[00:32:50] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[00:32:51] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:32:51] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:14213] logged in with entity id 651 at (-215.75595327397792, 64.0, 270.30000001192093)
+[00:32:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
+[00:32:53] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[00:32:53] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[00:32:54] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:32:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ACienZ[/112.122.71.103:11550] logged in with entity id 655 at (-213.30000001192093, 65.0, 272.105343493899)
+[00:32:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ joined the game
+[00:34:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was shot by Skeleton
+[00:44:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [A Seedy Place]
+[00:46:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to -954.5, 65.0, 356.5]
+[00:47:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
+[00:47:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
+[00:48:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ fell from a high place
+[00:50:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to -954.5, 65.0, 356.5]
+[00:53:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
+[00:55:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ACienZ: Teleported ACienZ to canx]
+[00:55:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
+[00:55:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
+[00:56:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx has made the advancement [Diamonds!]
+[00:56:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
+[00:57:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
+[00:57:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
+[01:02:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Given [Diamond] * 1 to canx]
+[01:02:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Given [Diamond] * 20 to canx]
+[01:02:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to -954.5, 65.0, 356.5]
+[01:03:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx fell out of the world
+[01:03:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Killed canx]
+[01:04:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to -954.5, 65.0, 356.5]
+[01:05:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
+[01:13:09] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Disconnected
+[01:13:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
+[01:13:19] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[01:13:19] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[01:13:20] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:13:20] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:14443] logged in with entity id 75437 at (-1017.62557899059, 70.0, 358.4863613843919)
+[01:13:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
+[01:19:16] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:19:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:19:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:19:53] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:19:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:19:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:21:32] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:21:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:21:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:22:28] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /112.21.182.99:63542 lost connection: Timed out
+[01:23:17] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:23:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:23:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:24:13] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:24:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:24:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:24:49] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:24:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:24:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:28:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
+[01:29:40] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:29:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:29:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:33:55] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[01:33:55] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[01:34:26] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:34:26] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:34:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:35:06] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:35:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:35:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:35:35] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:35:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:35:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:36:14] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:36:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:36:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:36:57] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:36:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:36:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:37:24] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:37:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:37:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:37:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Disconnected
+[01:37:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
+[01:37:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ACienZ lost connection: Disconnected
+[01:37:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ left the game
+[01:38:03] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[01:38:03] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[01:38:05] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:38:05] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: canx[/73.63.246.41:14560] logged in with entity id 117098 at (-1001.6257089942123, 69.0, 354.0733360188808)
+[01:38:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx joined the game
+[01:38:10] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[01:38:10] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,tconstruct@1.12.2-2.13.0.183,FML@8.0.99.99,projecte@1.12.2-PE1.4.1,forge@14.23.5.2854,harvestcraft@1.12.2zb,ic2@2.8.220-ex112,mantle@1.12-1.3.3.49,twilightforest@3.10.1013,flammpfeil.slashblade@mc1.12-r32,mcp@9.42,jei@4.15.0.289
+[01:38:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:38:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ACienZ[/112.122.71.103:12524] logged in with entity id 117532 at (-1018.6045221498539, 71.0, 365.36447438034935)
+[01:38:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ joined the game
+[01:38:12] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:38:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:38:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:40:21] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:40:21] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:40:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:42:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx hit the ground too hard
+[01:42:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ was blown up by Creeper
+[01:45:03] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:45:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:45:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:45:55] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:45:55] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Disconnected
+[01:45:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:47:47] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:47:47] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:47:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:48:37] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:48:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:48:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:51:06] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:51:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:51:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:51:40] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:51:40] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:51:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:52:15] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:52:15] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:52:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:58:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [canx: Teleported canx to ACienZ]
+[01:59:10] [Netty Epoll Server IO #1/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:59:10] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:59:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[01:59:45] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ACienZ lost connection: Disconnected
+[01:59:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ACienZ left the game
+[01:59:46] [Netty Epoll Server IO #0/ERROR] [FML]: NetworkDispatcher exception
+io.netty.handler.timeout.ReadTimeoutException: null
+[01:59:46] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: 1900 lost connection: Timed out
+[01:59:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 1900 left the game
+[02:00:13] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: canx lost connection: Internal Exception: io.netty.channel.unix.Errors$NativeIoException: syscall:read(..) failed: Connection reset by peer
+[02:00:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: canx left the game
